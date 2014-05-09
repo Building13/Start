@@ -1,0 +1,22 @@
+// Colors
+$pri-color: #F92A49;
+$sec-color: #333;
+$tri-color: #28457F;
+
+$light:#F9F9F9;
+
+$dark-gray: #1D1D1D;
+$med-gray: #333;
+$light-gray: #666;
+
+$bg-color: $light;
+$link-color: $pri-color;
+
+// Layout
+$margin: 20px;
+
+@mixin radius {
+  @include border-radius (5px);
+}
+
+

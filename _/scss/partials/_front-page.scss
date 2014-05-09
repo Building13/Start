@@ -1,0 +1,39 @@
+.billboard {
+
+  max-height: 800px;
+  overflow: hidden;
+
+  // margin-bottom: $margin*2;
+
+  img {
+    width: 100%
+  }
+
+}
+
+.home-page-section {
+  
+}
+
+.call-to-action {
+
+  // background-color: white;
+
+  padding: 100px 0;
+
+  // @extend .table-cell;
+  // height: 450px;
+  
+}
+
+.call-to-action-inner {
+
+  @extend .inner;
+  text-align: center;
+  color: $navy;
+  
+}
+
+.main-content {
+
+}

@@ -1,0 +1,16 @@
+{
+  "name": "lighthouse-lights",
+  "version": "0.1.0",
+  "dependencies": {
+    "load-grunt-tasks": "~0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-imagemin": "~0.6.1", 
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-rsync": "~0.2.1"
+  }
+}

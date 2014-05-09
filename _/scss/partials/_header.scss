@@ -1,0 +1,44 @@
+#main-header {
+	background-color: $dark-gray;
+	width: 100%;
+	max-width: 100%;
+  padding: $margin 0;
+  color: white;
+}
+
+.main-header-inner {
+  @extend .inner;
+  text-align: center;
+  @include breakpoint(small) {
+      text-align: left;
+  }
+}
+
+#logo-container {
+  @include clearfix;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#logo {
+  display: inline-block;
+  img {
+    width: 210px;
+    height: 120px;
+  }
+}
+
+#main-nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      a {
+        margin-right: $margin;
+      }
+    }
+  }
+}
+

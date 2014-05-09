@@ -1,0 +1,38 @@
+/*
+Theme Name: Lighthouse
+Author: Building 13
+Author URI: http://building13.com/
+Description: Another buitiful website built by Building 13
+Version: 1.0
+*/
+
+// Compass imports
+@import "compass";
+
+// Reset, Variables, Mixins, Etc
+// DO NOT EDIT ORDER OF FILES
+@import "partials/mediaqueries";
+@import "partials/var";
+@import "partials/normalize";
+
+// Globals
+@import "partials/base";
+@import "partials/forms";
+
+// Layout
+@import "partials/grid";
+@import "partials/layout";
+
+// Parts
+@import "partials/header";
+@import "partials/footer";
+
+// Pages
+
+// Helper Classes, Media Queries, Print, Etc
+//@import "partials/helpers";
+//@import "partials/print";
+
+* {
+  // border: 1px solid red;
+}

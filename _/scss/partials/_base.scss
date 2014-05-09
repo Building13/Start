@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    // border: 1px solid red;
+}
+
+body {
+  background-color: $bg-color;
+}
+
+$main-font: Helvetica , Arial , sans-serif;
+
+body {
+  font-size: 100%;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+#{headings(all)} {
+  margin-top: 0;
+  font-weight: 200;
+}
+
+p {
+  font-family: $main-font;
+  margin-top: 0;
+  max-width: 800px; // <--experimental testing for legibility
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  height: 1px;
+  background-color: #333;
+  border: 0;
+}
